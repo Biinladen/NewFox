@@ -51,9 +51,7 @@ A minimal Firefox theme with userContent and userChrome.
 
 #
 
-> I also used some code and some assessts that doesnt belong to me ,
->
-> expand the list below to see the direct link to there original owners.
+> I also used some code and assets that doesn't belong to me, expand the list below to see the direct link to there original owners.
 
 <details>  
 <summary>✨ <b>Sources</b> <i>[Click to expand]</i> 👇</summary>
