@@ -23,21 +23,25 @@ A minimal Firefox theme with userContent and userChrome
 >toolkit.legacyUserProfileCustomizations.stylesheets
 >
 >type = about:support
->then profile folder then paste these inside the chrome folder, if not aviable create a folder name chrome
+>then clicl on the profile folder
+> it opens you to to it then paste these inside the chrome folder,
+> if not aviable create a folder name chrome
 
 > [!TIP] 
 >enabling weather =
->in about:config make these this true =
+>in about:config make this true =
 >
 >browser.newtabpage.activity-stream.showWeather
 
 
 > [!NOTE]
->disable personalize-button in the configs so the pencil icon get shown up in the home screen so the weather widget can be toggled-on , then enable the file again
+>disable personalize-button.css in the configs (just delete the file) so
+>the pencil icon get shown up in the home screen, then toggled-on the weather widget then enable the file again (restore the file)
 
 
 > [!WARNING]
-> dont expand the vertical tab, it will brake the layout , i even disablled the expand vertical tab icon in the code so it doesnt happen :) 
+> dont expand the vertical tab, it will brake the layout ,
+> i even disabled the expand vertical tab icon in the code so it doesnt happen :) 
 
 #
 
