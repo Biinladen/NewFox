@@ -23,7 +23,7 @@ A minimal Firefox theme with userContent and userChrome
 >toolkit.legacyUserProfileCustomizations.stylesheets
 >
 >type = about:support
->then profile folder then paste the chrome folder completly
+>then profile folder then paste these inside the chrome folder, if not aviable create a folder name chrome
 
 > [!TIP] 
 >enabling weather =
