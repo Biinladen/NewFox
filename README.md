@@ -49,6 +49,9 @@ A minimal Firefox theme with userContent and userChrome.
 > 
 > I even disabled the expand vertical tab icon in the code so it doesnt happen :) 
 
+> [!CAUTION]
+> Now aviable at (https://firefoxcss-store.github.io/) . Just search for NewFox
+
 #
 
 > I also used some code and assets that doesn't belong to me, expand the list below to see the direct link to there original owners.
