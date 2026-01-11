@@ -50,7 +50,7 @@ A minimal Firefox theme with userContent and userChrome.
 > I even disabled the expand vertical tab icon in the code so it doesnt happen :) 
 
 > [!CAUTION]
-> Now aviable at (https://firefoxcss-store.github.io/) . Just search for NewFox
+> Now available at (https://firefoxcss-store.github.io/) . Just search for NewFox
 
 #
 
