@@ -1,4 +1,4 @@
-# <img src="./README-Resources//firefox-logo.svg" width="32" height="32" style="vertical-align: middle;"> NewFox
+# <img src="./README-Resources//firefox-logo.svg" width="32" height="32" style="vertical-align: middle;"> NewFox [Animated]
 A minimal Firefox theme with userContent and userChrome.
 
 <div>
@@ -13,21 +13,51 @@ A minimal Firefox theme with userContent and userChrome.
 
 ![Image](./README-Resources/ShowCase.png)
 
-> [!IMPORTANT]
-> Enabling the customizations files =>
->
->In about:config make these true =
->
->privacy.userContext.enabled
->
->toolkit.legacyUserProfileCustomizations.stylesheets
->
->Type = about:support
->then click on the profile folder,
-> 
-> it opens you to to it, then paste these inside the chrome folder,
-> 
-> if not aviable create a folder name chrome.
+[MainFeatures.webm](https://github.com/user-attachments/assets/090283c9-346e-47d9-a2e9-9ae549103d6c)
+
+<details><summary>🚩 Release notes</summary>
+
+<br/>
+
+1.1.0:
+- Added the running Knight 
+- Added userChrome.js to apply javascript
+- Disabled some shortcuts that broke my layout (yeah instead of fixing the code i removed the firefox UI elements, call it a skill issue if you want 😇)
+
+- 1.0.0:
+- Based Theme
+
+<br/>
+
+</details>
+
+## Usage
+
+### Install
+
+#### Step 1 - Download files
+
+ - [Download](https://github.com/Mr-the-beginner/NewFox/releases/download/V1.1.0/NewFox-V1.1.zip) and unzip theme files
+
+#### Step 2 - Enabling some settigs
+
+ - in the search bar type about:config and make these true =
+ - privacy.userContext.enabled
+ - toolkit.legacyUserProfileCustomizations.stylesheets
+
+#### Step 3 - installing the files
+
+ - Type = about:support in the search bar
+ - Under "Application Basics", find "Profile Directory" and click "Open Directory" infront of it
+ - Come one directory below
+ - then copy the "NewFox Content" as is inside and hit replace everything
+
+  #### Step 4 - installin the files
+  
+ - from where you are find the "profile" directory, go inside of it and delete the "startupCache" directory
+   
+   </details>
+
 
 > [!TIP] 
 >Enabling weather =>
@@ -37,17 +67,12 @@ A minimal Firefox theme with userContent and userChrome.
 
 
 > [!NOTE]
->Disable personalize-button.css in the configs (just delete the file) so
+>Disable "personalize-button.css" in the configs (just delete the file) so
 > 
 >the pencil icon get shown up in the home screen,
 >
 > then toggled-on the weather widget then enable the file again (restore the file).
 
-
-> [!WARNING]
-> Don't expand the vertical tab, it will brake the layout.
-> 
-> I even disabled the expand vertical tab icon in the code so it doesnt happen :) 
 
 > [!CAUTION]
 > Now available at (https://firefoxcss-store.github.io/) . Just search for NewFox
@@ -64,6 +89,10 @@ A minimal Firefox theme with userContent and userChrome.
 * Icons folder, navbar.css and general.css are from = https://github.com/bmFtZQ/edge-frfox
 
 *  Night-Swamp.jpg is the Adobe Premiere pro's 2023 splash screen = https://www.behance.net/gallery/163378813/Adobe-Premiere-Pro-Splash-Screen-2023/modules/921508831
+
+*  The js loader is from = https://github.com/Aris-t2/CustomJSforFx
+
+*  the 4.png is from = https://aamatniekss.itch.io/fantasy-knight-free-pixelart-animated-character
 
 </details>
 
