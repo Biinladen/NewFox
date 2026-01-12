@@ -8,28 +8,34 @@ A minimal Firefox theme with userContent and userChrome.
 
 <br>
 
-🦊 I have Blurred my Pins, Weather,extensions and the searchbar in the Screenshot, it has nothing to do with the code.
+🦊 I have Blurred my Pins, Weather, extensions and the searchbar in the Screenshot, it has nothing to do with the code.
 
+##
 
 ![Image](./README-Resources/ShowCase.png)
 
-<details><summary>🚩 Release notes</summary>
+##
+
+>[!TIP]
+>From here you can also watch a short demo on the ![main features](./README-Resources/MainFeatures.md)
 
 <br/>
+
+<details><summary>🚩 Release notes</summary>
 
 1.1.0:
 - Added the running Knight 
 - Added userChrome.js to apply javascript
 - Disabled some shortcuts that broke my layout (yeah instead of fixing the code i removed the firefox UI elements, call it a skill issue if you want 😇)
 
-- 1.0.0:
+1.0.0:
 - Based Theme
 
 <br/>
 
 </details>
 
-## Usage
+# Usage
 
 ### Install
 
@@ -56,6 +62,7 @@ A minimal Firefox theme with userContent and userChrome.
    
    </details>
 
+##
 
 > [!TIP] 
 >Enabling weather =>
@@ -71,11 +78,12 @@ A minimal Firefox theme with userContent and userChrome.
 >
 > then toggled-on the weather widget then enable the file again (restore the file).
 
+##
 
 > [!CAUTION]
 > Now available at (https://firefoxcss-store.github.io/) . Just search for NewFox
 
-#
+##
 
 > I also used some code and assets that doesn't belong to me, expand the list below to see the direct link to there original owners.
 
